@@ -1,5 +1,9 @@
 # Identity-Preserving Creator Studio
 
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://www.javascript.com/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/identity-studio?style=social)](https://github.com/yksanjo/identity-studio/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/identity-studio.svg)](https://github.com/yksanjo/identity-studio/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/yksanjo/identity-studio.svg)](https://github.com/yksanjo/identity-studio/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/identity-studio.svg)](https://github.com/yksanjo/identity-studio/commits/main)
+
+
 A Next.js application for generating images while preserving identity using Hugging Face Inference API.
 
 ## Setup
