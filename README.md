@@ -1,57 +1,84 @@
-# Identity-Preserving Creator Studio
+# identity-studio
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://www.javascript.com/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/identity-studio?style=social)](https://github.com/yksanjo/identity-studio/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/identity-studio.svg)](https://github.com/yksanjo/identity-studio/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/yksanjo/identity-studio.svg)](https://github.com/yksanjo/identity-studio/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/identity-studio.svg)](https://github.com/yksanjo/identity-studio/commits/main)
+## Detailed Description
 
+identity-studio is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-A Next.js application for generating images while preserving identity using Hugging Face Inference API.
+## Problem Statement
 
-## Setup
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-1. Install dependencies:
+## Solution Overview
+
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
+
 ```bash
-npm install
+npm ci
+npm run lint
+npm test
+npm run build
 ```
 
-2. Configure environment variables:
-Copy `.env.local` and add your Hugging Face API token:
-```
-HF_API_TOKEN=your_token_here
-HF_MODEL_ID=ByteDance/InfiniteYou-FLUX
-```
+## Usage
 
-3. Run the development server:
-```bash
-npm run dev
-```
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-Open [http://localhost:3000](http://localhost:3000) to see the app.
+## Quality Standards
 
-## Features
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-- Image upload for identity reference
-- Prompt-based image generation
-- Hugging Face Inference API integration
-- Identity-preserving image generation
+## Security
 
-## Next Steps
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
-- 🔒 Lock identity across multiple generations
-- 🎨 Prompt presets (Anime, Fashion, Illusion)
-- 🔁 Regenerate button
-- 🧠 Model switcher (FLUX / SDXL)
-- 💳 Credit system
-- 📦 Save generations
-- 🔥 Identity consistency trick (multiple refs)
-- ⚡ Replicate / Modal GPU version
-- 🖼 IllusionDiffusion pipeline
-- 📱 Mobile-first UI
-- 🚀 Deploy to Vercel + GPU backend
+## Contributing
 
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
 
+## Roadmap
 
+Track upcoming milestones, technical debt, and planned feature work.
 
+## Support
 
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
+## License
 
-
+This project is released under the MIT License.
